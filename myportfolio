@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- boostrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css"/>
+
+   <title>adlirafsanjaniportfolio!</title>
+  </head>
+  <body id="home">
+   <!--navbar-->
+
+   <nav class="navbar navbar-expand-lg navbar-dark shadow-s bg-success fixed-top">
+        <div class="container">
+      <a class="navbar-brand" href="#"></a>
+      <i class="bi bi-bug-fill"></i>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#galery">Galery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </nav>
+  <!-- akhir navbar -->
+  <!-- jumbotron -->
+  <section class="jumbotron text-center ">
+    <img src="img/1.jpeg" width="120px" class=" rounded-circle img-thumbnail mb-20" />
+    <h1 class="display-4 ">Adli Rafsanjani </h1>
+    <p class="lead">Collage Student</p>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,128L30,122.7C60,117,120,107,180,85.3C240,64,300,32,360,42.7C420,53,480,107,540,128C600,149,660,139,720,112C780,85,840,43,900,32C960,21,1020,43,1080,80C1140,117,1200,171,1260,176C1320,181,1380,139,1410,117.3L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+  </section>
+  <section id="about">
+   <div class="container ">
+    <div class="row text-center mb-5">
+        <div class="col">
+           <h2>About Me</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center fs-5 text-center  ">
+     <div class="col-md-4">
+       <p>
+          Perkenalkan semuanya nama saya Adli Hafizh Rafsanjani,saya adalah seorang mahasiswa semester tengah,umur saya 20 tahun,12 juni 2001 adalah tahun kelahiran saya 
+       </p>  
+         </div>
+     <div class="col-md-4">
+       <P> 
+         saya berkuliah di salah satu universitas swasta di Jakarta Barat yaitu universitas Mercu Buana,program studi yang saya ambil adalah teknik informatika.
+       </P>
+    </div>
+     </div>
+    </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#8fbc8f" fill-opacity="100000000" d="M0,96L6.2,80C12.3,64,25,32,37,53.3C49.2,75,62,149,74,186.7C86.2,224,98,224,111,229.3C123.1,235,135,245,148,213.3C160,181,172,107,185,106.7C196.9,107,209,181,222,218.7C233.8,256,246,256,258,240C270.8,224,283,192,295,186.7C307.7,181,320,203,332,218.7C344.6,235,357,245,369,240C381.5,235,394,213,406,176C418.5,139,431,85,443,69.3C455.4,53,468,75,480,117.3C492.3,160,505,224,517,234.7C529.2,245,542,203,554,192C566.2,181,578,203,591,181.3C603.1,160,615,96,628,106.7C640,117,652,203,665,218.7C676.9,235,689,181,702,160C713.8,139,726,149,738,149.3C750.8,149,763,139,775,154.7C787.7,171,800,213,812,240C824.6,267,837,277,849,240C861.5,203,874,117,886,101.3C898.5,85,911,139,923,154.7C935.4,171,948,149,960,138.7C972.3,128,985,128,997,117.3C1009.2,107,1022,85,1034,80C1046.2,75,1058,85,1071,80C1083.1,75,1095,53,1108,37.3C1120,21,1132,11,1145,21.3C1156.9,32,1169,64,1182,85.3C1193.8,107,1206,117,1218,112C1230.8,107,1243,85,1255,90.7C1267.7,96,1280,128,1292,149.3C1304.6,171,1317,181,1329,186.7C1341.5,192,1354,192,1366,165.3C1378.5,139,1391,85,1403,69.3C1415.4,53,1428,75,1434,85.3L1440,96L1440,320L1433.8,320C1427.7,320,1415,320,1403,320C1390.8,320,1378,320,1366,320C1353.8,320,1342,320,1329,320C1316.9,320,1305,320,1292,320C1280,320,1268,320,1255,320C1243.1,320,1231,320,1218,320C1206.2,320,1194,320,1182,320C1169.2,320,1157,320,1145,320C1132.3,320,1120,320,1108,320C1095.4,320,1083,320,1071,320C1058.5,320,1046,320,1034,320C1021.5,320,1009,320,997,320C984.6,320,972,320,960,320C947.7,320,935,320,923,320C910.8,320,898,320,886,320C873.8,320,862,320,849,320C836.9,320,825,320,812,320C800,320,788,320,775,320C763.1,320,751,320,738,320C726.2,320,714,320,702,320C689.2,320,677,320,665,320C652.3,320,640,320,628,320C615.4,320,603,320,591,320C578.5,320,566,320,554,320C541.5,320,529,320,517,320C504.6,320,492,320,480,320C467.7,320,455,320,443,320C430.8,320,418,320,406,320C393.8,320,382,320,369,320C356.9,320,345,320,332,320C320,320,308,320,295,320C283.1,320,271,320,258,320C246.2,320,234,320,222,320C209.2,320,197,320,185,320C172.3,320,160,320,148,320C135.4,320,123,320,111,320C98.5,320,86,320,74,320C61.5,320,49,320,37,320C24.6,320,12,320,6,320L0,320Z"></path></svg>
+  </section>
+    <!-- akhir abaout -->
+    <!-- Galery -->
+    <section id="galery">
+      <div class="container">
+        <div class="row mb-5  ">
+          <div class="col text-center">
+            <h3>My Galery</h3>
+          </div>
+        </div>
+      
+      <div class="row justify-content-center">
+        <div class="col-md-3 mb-5">
+          <div class="card" >
+            <img src="galery/1.jpg" class="card-img-top" alt="galery4">
+            <div class="card-body">
+              
+            </div>
+          </div>
+        </div>  <div class="col-md-3 mb-5">
+          <div class="card" >
+            <img src="galery/2.jpg" class="card-img-top" alt="galery2">
+            <div class="card-body">
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-5">
+          <div class="card" >
+            <img src="galery/3.jpg" class="card-img-top" alt="galery3">
+            <div class="card-body">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-5">
+          <div class="card" >
+            <img src="galery/4.jpeg" class="card-img-top" alt="galery3">
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-5">
+          <div class="card" >
+            <img src="galery/5.jpeg" class="card-img-top" alt="galery3">
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-5">
+          <div class="card" >
+            <img src="galery/6.jpeg" class="card-img-top" alt="galery3">
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="10" d="M0,192L57.6,32L115.2,128L172.8,288L230.4,224L288,160L345.6,192L403.2,96L460.8,288L518.4,320L576,192L633.6,320L691.2,32L748.8,96L806.4,192L864,192L921.6,64L979.2,64L1036.8,288L1094.4,256L1152,288L1209.6,288L1267.2,0L1324.8,256L1382.4,128L1440,288L1440,320L1382.4,320L1324.8,320L1267.2,320L1209.6,320L1152,320L1094.4,320L1036.8,320L979.2,320L921.6,320L864,320L806.4,320L748.8,320L691.2,320L633.6,320L576,320L518.4,320L460.8,320L403.2,320L345.6,320L288,320L230.4,320L172.8,320L115.2,320L57.6,320L0,320Z"></path></svg>
+  </section>
+    <!-- contact -->
+    </div></section>
+    <section id="contact">
+      <div class="container">
+       <div class="row text-center mb-0">
+         <div class="col ">
+           <h2>
+             Contact Me
+           </h2>
+         </div>
+       </div>
+      </div>
+       <div class="row justify-content-center">
+         <div class="col-md-6 mb-5">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" id="name" aria-describedby="name">
+              
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email anda</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="email">
+
+            </div>
+            <div class="mb-3">
+              <label for="address" class="form-label">Alamat anda</label>
+              <input type="address" class="form-control" id="address" aria-describedby="address">
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim</button>
+          </form>
+         </div>
+       </div>
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#198754" fill-opacity="10" d="M0,192L9.6,165.3C19.2,139,38,85,58,74.7C76.8,64,96,96,115,138.7C134.4,181,154,235,173,250.7C192,267,211,245,230,224C249.6,203,269,181,288,176C307.2,171,326,181,346,170.7C364.8,160,384,128,403,144C422.4,160,442,224,461,261.3C480,299,499,309,518,293.3C537.6,277,557,235,576,234.7C595.2,235,614,277,634,250.7C652.8,224,672,128,691,90.7C710.4,53,730,75,749,101.3C768,128,787,160,806,176C825.6,192,845,192,864,170.7C883.2,149,902,107,922,85.3C940.8,64,960,64,979,101.3C998.4,139,1018,213,1037,245.3C1056,277,1075,267,1094,266.7C1113.6,267,1133,277,1152,282.7C1171.2,288,1190,288,1210,240C1228.8,192,1248,96,1267,90.7C1286.4,85,1306,171,1325,192C1344,213,1363,171,1382,176C1401.6,181,1421,235,1430,261.3L1440,288L1440,320L1430.4,320C1420.8,320,1402,320,1382,320C1363.2,320,1344,320,1325,320C1305.6,320,1286,320,1267,320C1248,320,1229,320,1210,320C1190.4,320,1171,320,1152,320C1132.8,320,1114,320,1094,320C1075.2,320,1056,320,1037,320C1017.6,320,998,320,979,320C960,320,941,320,922,320C902.4,320,883,320,864,320C844.8,320,826,320,806,320C787.2,320,768,320,749,320C729.6,320,710,320,691,320C672,320,653,320,634,320C614.4,320,595,320,576,320C556.8,320,538,320,518,320C499.2,320,480,320,461,320C441.6,320,422,320,403,320C384,320,365,320,346,320C326.4,320,307,320,288,320C268.8,320,250,320,230,320C211.2,320,192,320,173,320C153.6,320,134,320,115,320C96,320,77,320,58,320C38.4,320,19,320,10,320L0,320Z"></path></svg>
+     </section>  
+     <!-- akhir contact -->
+     <!-- footer -->
+      <footer class="bg-success text-white text-center pb-5">
+       <p>
+         created with<i class="bi bi-heart-fill text-danger"></i>  by <a href="https://www.instagram.com/adliraf/" class="text-white fw-bold "><i class="bi bi-instagram"></i>  adlirafsanjani</a>
+       </p>
+     </footer>
+     <!-- akhir footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>
